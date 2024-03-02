@@ -1,0 +1,32 @@
+{
+  "name": "@diograph/utils",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/**/*.d.ts",
+  "author": "Jouni Alanen <jouni@diory.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@diograph/diograph": "next"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "yarn build --watch",
+    "prettier": "prettier --write .",
+    "test": "jest . --verbose",
+    "test-watch": "yarn test --watch"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 100,
+    "trailingComma": "all"
+  }
+}

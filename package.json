@@ -6,7 +6,7 @@
   "author": "Jouni Alanen <jouni@diory.me>",
   "license": "MIT",
   "dependencies": {
-    "@diograph/diograph": "next"
+    "@diograph/diograph": "^0.2.2-rc3"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

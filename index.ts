@@ -9,7 +9,9 @@ export const getClientAndVerify = async (
   const clientData = availableClients[clientType]
 
   if (!clientData) {
-    throw new Error(`getClientAndVerify: Unknown clientType: ${clientType}`)
+    throw new Error(
+      `getClientAndVerify: Unknown clientType or incomplete availableClients data for ${clientType}`,
+    )
   }
 
   const client = new clientData.clientConstructor(address, clientData.credentials)

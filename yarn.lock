@@ -297,10 +297,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@diograph/diograph@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@diograph/diograph/-/diograph-0.2.2.tgz#3e3a37b2958763bd7b61b198a6321d528732e12e"
-  integrity sha512-TUQdBnRN2J5ZpoVNT15aaFEj53ZjAI6m8urfkPN5dYp3+rRRRhWq/uoRbsQcicqv/pUqOWflur17qoCcveKdSw==
+"@diograph/diograph@next":
+  version "0.2.3-rc1"
+  resolved "https://registry.yarnpkg.com/@diograph/diograph/-/diograph-0.2.3-rc1.tgz#1b4aeb59500819951b107135e01013a412837b2d"
+  integrity sha512-yJRtHzJTjSTXxQdb2ub4pmx9gFxEYNzcezxDTUufaoiVP4ogtgOqhhddsdHEbpT/R9CnNhm/ZwNSl2FHpQIycg==
   dependencies:
     "@types/path-browserify" "^1.0.0"
     "@types/uuid" "8.3.2"
